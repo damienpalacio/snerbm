@@ -1,0 +1,2 @@
+[TOPONYM ; Type:TOPONYM_TYPE ; Lon:LONGITUDE ; Lat:LATITUDE]
+[Query: 1; Belchertown Center Historic District ; Type:other ; Lon:-72.3978619 ; Lat:42.2806474]

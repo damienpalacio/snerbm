@@ -1,0 +1,351 @@
+/** 
+ * site.css
+ * 
+ * Damien Palacio
+ * Geocomputation - UZH
+ * 2016
+ * 
+**/
+
+/*
+html{ 
+	font-size: 14px;
+	line-height: 1.5;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Arial, Verdana, sans-serif; 
+}*/
+body {
+	width: 99%;
+	min-width: 870px;	
+	background-color: white;
+}
+
+img {
+	border: 0;
+}
+
+a:link {
+	color: #005277;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited {
+	color: #005277;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.header_box { /*background-color: #005278;*/
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	/*color: white;*/
+}
+
+.band {
+	/*height: 60px;*/
+	height: 30px;
+}
+
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center_pos {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.reduced {
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+}
+
+.width30 {
+	width: 30%;
+}
+
+.center_pos_menu {
+	text-align: center;
+	margin-left: 130px;
+	width: 80%;
+}
+
+.center_box {	
+	min-height: 50px;	
+	position: relative;
+	border-bottom: solid 1px #005278;
+	border-left: dashed 1px #005278;
+	border-right: dashed 1px #005278;
+	border-top: solid 1px #005278;
+	border-radius: 12px;
+}
+
+.center_header {
+	margin-top: 0;
+	background-color: #005278;
+	border-radius: 12px;
+	color: white;
+	text-align: center;
+}
+
+.table {
+	width: 100%;
+}
+
+.col_90 {
+	width: 90px;
+}
+
+.col_40 {
+	width: 40px;
+}
+
+.horiz_border {
+	border-collapse: collapse;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.bottom_box {
+	background-color: #e4e8ea;
+	border: #005278 1px solid;
+	text-align: center;
+	font-style: italic;
+}
+
+.bottom_box_left {
+	margin-left: 5%;
+	width: 160px;
+	position: absolute;
+	text-align: center;
+}
+
+.left_menu {	
+	left: 0.2em;		
+	min-width: 110px;	
+	position: fixed;
+	text-align:left;
+}
+
+.left_menu_res {	
+	top: -10px;		
+}
+
+.left_box {
+	background-color: #e4e8ea;
+	border: #005278 1px solid;	
+	border-radius: 12px;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.left_selected {
+	background-color: #FFFF66;
+	border: black 1px solid;
+}
+
+.left_header {
+	margin-top: 0;
+	background-color: #005278;
+	color: white;
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.left_ul {
+	margin-left: -1em;
+}
+
+.righ_pos {
+	margin-left: 190px;
+	position: fixed;
+	overflow: hidden;
+}
+
+.right_menu {
+	margin-left: 40%;
+	width: 40%;
+	position: fixed;
+	text-align: left;
+}
+
+.txt_left {
+	text-align: left;
+}
+
+.txt_center {
+	text-align: center;
+}
+
+.txt_bold {
+	font-weight: bold;
+}
+
+.txt_und {
+	text-decoration: underline;
+}
+
+.txt_small {
+	font-size: x-small;
+}
+
+.li_space {
+	margin-left: 10%;
+}
+
+.features {
+	background-color: #FFFF66;
+}
+
+.tab_cent {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.no_scroll {
+	margin-top: 2em;
+	text-align: left;
+	max-height: 100px;
+	overflow: hidden;
+}
+
+.scroll_text {
+	margin-top: 2em;
+	text-align: left;
+	border: #005278 1px solid;
+	background-color: #e4e8ea;
+	height: 180px;
+	overflow: auto;
+}
+
+.smallmap {	
+	/*display: none;*/
+	clear: both;
+	margin: auto;
+	width: 100%;
+	height: 300px;	
+}
+
+.w3c {
+	margin-top: 20px;
+	width: 30%;
+	position: absolute;
+}
+
+.flag {
+	height: 40px;	
+}
+
+.rightspace{
+	margin-right: 40px;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.logo {
+	max-height: 110px;
+	margin-left: 20px;
+}
+
+
+.icon {
+	width: 20px;
+	margin-left: 20px;
+	vertical-align: bottom;
+}
+
+.progress {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.isvalid {
+	background: url(images/ok.png) right no-repeat;
+}
+
+.notvalid {
+	background: url(images/notok.png) right no-repeat;	
+}
+
+.backgroundcenter {
+	background-position: center;
+}
+
+.check {
+	height: 20px;
+	width: 50px;
+}
+
+.nobackground {
+	background: none;
+	background-color: transparent;
+}
+
+a.button {	
+	height: 35px;
+	padding: 9px 22px;
+	background: #254a86;
+	border: 1px solid #163362;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	border-radius: 4px;
+}
+
+a.smallbutton {
+	padding: 2px 1px;
+	font-weight: normal;
+	border: 1px solid black;
+	color: black;
+}
+
+a.darkgreen {
+	background: #008E00;
+	color: #fff;
+	border: 1px solid #621B16;
+}
+
+a.button:hover {
+	background: orange;
+	color: black;
+}
+
+a.gray {
+	background: #C4C4C4;
+}
+
+a.green {
+	background: #33FF00;
+}
+
+a.red {
+	background: #FF3300;
+}
+
+a.inactive, a.inactive:hover {
+	background: #C4C4C4;
+	color: black;
+	border: 0px;
+	color: ButtonShadow; 
+	cursor: default; 
+	
+}

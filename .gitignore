@@ -1,0 +1,7 @@
+include/config.php
+cygwin1.dll
+applis/trec_eval.exe
+cyggcc_s-1.dll
+applis/logs.txt
+trec_eval.exe
+applis/logs2.txt

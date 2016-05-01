@@ -1,0 +1,5 @@
+- Convert to trec format. Including relevancy calculation based on distance. Currently done in Java (but need some changes). Would make sense to do it in PHP instead of calling a jar file. Need a pgsql DB if we want to keep using postGIS functions.
+
+- Load the rules and the DB instead of using csv file.
+
+- Add history, to display runs submitted and results on the website.
